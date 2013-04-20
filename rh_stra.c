@@ -1,7 +1,3 @@
-#include <stdlib.h> // malloc
-#include <stdio.h>  // size_t, BUFSIZ, NULL
-#include <string.h> // strlen
-
 extern char* rh_stra(const char* src)
 {
     /* The char* returned from this function MUST be free'd 
