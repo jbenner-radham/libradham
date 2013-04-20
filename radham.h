@@ -1,0 +1,1 @@
+extern char* rh_stra(const char* src);
