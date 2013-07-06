@@ -9,8 +9,7 @@ char *rh_str_triml(const char *str_src)
             space = true;
         else
             if (space)
-                return rh_str_new(strstr((const char*)str_src, (const char)str_src[i]));
-                /*return strstr((const char*)str_src, (const char*)&str_src[i]);*/
+                return rh_str_new(strchr((const char*)str_src, str_src[i]));
 
     return NULL;
 }
