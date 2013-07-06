@@ -13,8 +13,10 @@ char *rh_str_trimr(const char *str_src)
         if (isspace(str_dest[i]))
             space = true;
         else
-            if (space)
-                str_dest[++i] = '\0'; break;
+            if (space) {
+                str_dest[++i] = '\0';
+                break;
+            }
 
     return str_dest;
 }
