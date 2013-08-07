@@ -1,10 +1,10 @@
 bool rh_str_startswith(char* needle, char* haystack)
 {  
-	for (size_t i = 0, needle_len = strlen(needle); i < needle_len; ++i)
+    for (size_t i = 0, needle_len = strlen(needle); i < needle_len; ++i)
 		if (needle[i] != haystack[i])
-			return false;
+            return false;
 
-	return true;
+    return true;
 }
 
 /*
