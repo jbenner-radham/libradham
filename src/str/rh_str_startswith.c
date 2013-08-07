@@ -12,6 +12,8 @@ bool rh_str_startswith(char* needle, char* haystack)
 // Example of function stuff, yay!
 // -------------------------------
 
+// Note to self: Should do a rh_st_endswith() too.
+
 #include <ctype.h>
 #include <stdbool.h>
 #include <stdio.h>
