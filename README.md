@@ -20,6 +20,12 @@ Functions
 
 ## String
 
+### Character Position
+```C
+int rh_str_chrpos(const char*, char);
+```
+Returns the position of the character you are searching for as an integer.
+
 ### Has Character?
 ```C
 bool rh_str_haschr(const char* str, char chr);
