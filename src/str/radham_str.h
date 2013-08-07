@@ -26,4 +26,7 @@ int rh_str_chrpos(const char*, char);
 bool rh_str_haschr(const char*, char);
 #include "rh_str_haschr.c"
 
+bool rh_str_startswith(char* needle, char* haystack);
+#include "rh_str_startswith.c"
+
 #endif //_LIBRADHAM_STR_H
